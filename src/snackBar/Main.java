@@ -14,8 +14,14 @@ public class Main
         Snack chips = new Snack("Chips", 36, 1.75, food.getId());
         Snack chocolate = new Snack("Chocolate Bar", 36, 1.00, food.getId());
         Snack pretzel = new Snack("Pretzel", 30, 2.00, food.getId());
+        Snack soda = new Snack("Soda", 24, 2.50, drink.getId());
+        Snack water = new Snack("Water", 20, 2.75, drink.getId());
 
-        System.out.println("*** SnackBar Data ***");
+
+        System.out.println("*** Vending Machine Data ***");
+
+
+        System.out.println("*** Customer Data ***");
         System.out.println(c1);
         System.out.println(c2);
 
